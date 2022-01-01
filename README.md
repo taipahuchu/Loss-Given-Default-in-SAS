@@ -7,5 +7,5 @@ to make better predictions compared with linear regression and fractional respon
 models are performed in SAS/STAT®, SAS® 9.2, using specifically PROC REG and PROC NLMIXED, and the 
 model evaluation metrics are calculated in PROC IML. This project gives a detailed description on how to use PROC 
 NLMIXED to build and estimate generalized linear models and mixed effects models. 
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=taipa)](https://github.com/anuraghazra/github-readme-stats)
 
