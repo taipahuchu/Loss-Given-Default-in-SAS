@@ -73,6 +73,8 @@ be presented as follows
 
 Recovery Rate = Intercept + Recovery Characteristics + Firm Characteristics + Macroeconomic Variables
 
+https://github.com/taipahuchu/Loss-Given-Default-in-SAS/blob/main/factors.xlsx
+
 
  
 
