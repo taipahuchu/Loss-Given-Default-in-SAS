@@ -99,6 +99,51 @@ Var14	Aggregated Default Rates 	Annual issuer-weighted corporate default rates
 Var15	Unemployment Rate	Annual unemployment rate 
 ![image](https://user-images.githubusercontent.com/39062372/147856797-8791a1b6-a3fe-4f49-8117-4e4a3d65b3f6.png)
 
+MODELS AND SAS PROGRAMS 
+This section gives an overview of the models in this study. The following mathematical notations are used through 
+this paper. The recovery rate of instrument i is defined as i y and the vector of covariates is given as i x . 0 b and β
+denote the intercept term and the vector of parameters respectively. In the following SAS programs we name the 
+dependent variable as ‘RR’, and the independent covariates are indexed as ‘Var1-Var14’. The parameters of 
+intercept term and all the covariates are named as ‘b0-b14’, and the cleaned dataset is named as ‘MyData’. 
+
+**LINEAR REGRESSION **
+
+Previous studies show that linear regression models appear to be of comparable predictive accuracies as other more 
+complicated statistical models (Qi and Zhao, 2011; Bellotti and Crook, 2012) even though there is the potential risk to 
+make predictions out of the range between 0 and 1. 
+
+**FRACTIONAL RESPONSE REGRESSION **
+
+Fractional response regression was first proposed by Papke and Wooldridge (1996) and has been widely applied in 
+LGD modeling (Dermine and Carvalho, 2006; Bastos, 2010, Bellotti & Crook, 2012). In this model, the dependent 
+variable is bounded between 0 and 1 by imposing a link function such as β 0 (|) ( ) T Ey G ii i x x = + b where G( )⋅
+denotes a link function such as a logit or a complementary log-log transformation function and the quasi maximum 
+likelihood function.
+
+**Inflated beta regression **
+
+Inflated beta regression is proposed by Ospina and Ferrari (2010) where the dependent variable is regarded as a 
+mixture distribution of a beta distribution on (0, 1) and a Bernoulli distribution on boundaries 0 and 1. The probability 
+density function is the beta density function and m and f are the mean and precision parameters. Here m can be 
+reparameterized by imposing a logit transformation.
+
+**CONCLUSION **
+
+In this project we demonstrate that how to estimate both fixed and mixed effects models in SAS/STAT®. We also 
+illustrate calculating performance metrics in PROC IML with common matrix operators. This study proposes to apply 
+a linear mixed effects model to predict the US corporate bonds recovery rates. The purpose of using a mixed effects 
+model is to better explain the unobservable heterogeneity in an empirical data set. Performances of the mixed effects 
+models with the random effect term specified at obligor, seniority and time levels are examined. We build up linear 
+regression model in PROC REG, and realize fractional response regression and inflated beta regression models in 
+PROC NLMIXED. We provide details on how to estimate mixed effects models in PROC NLMIXED with a simple 
+macro variable incorporated for convenience. Empirical evidence indicates that an obligor-varying mixed effects 
+model significantly outperforms the others in terms of all the performance metrics we considered, which emphasizes 
+the importance of including firm specific random effect. We provide a new angle to model corporate bonds recovery 
+rates and show the conveniences to build up credit risk models in SAS/STAT® especially PROC NLMIXED. Further 
+study will be conducted based on the existing findings. 
+
+
+ 
 
  
 
