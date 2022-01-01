@@ -9,3 +9,21 @@ model evaluation metrics are calculated in PROC IML. This project gives a detail
 NLMIXED to build and estimate generalized linear models and mixed effects models. 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=taipahuchu)](https://github.com/anuraghazra/github-readme-stats)
 
+### Hi there 👋, Modeling Loss Given Default in SAS/STAT
+#### Loss given default (LGD) measures the percentage of all exposure at the time of default that can not be recovered.  Recovery rate (RR) is defined as one minus LGD
+This project aims to fill in this gap by applying the random effect terms at multiple levels and to conduct a comparison 
+study of the commonly used models in literature. We mainly investigate to apply the mixed effects models to predict 
+the US corporate bonds recovery rates with the random effect terms specified at obligor, seniority and time levels. We 
+find that the inclusion of an obligor-varying random effect term effectively explains the unobservable heterogeneity 
+and the related predictive accuracies are also much better than the others. All the models are built up and realized in 
+SAS/STAT® and the prediction results are generated in PROC IML.
+
+Skills: SAS/Credit Risk
+
+- 🔭 I’m currently working on this page. 
+
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/taipahuchu)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/linkedin.com/in/taipa-huchu/)  
+
+
+
