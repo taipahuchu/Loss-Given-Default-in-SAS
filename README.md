@@ -73,7 +73,7 @@ be presented as follows
 
 Recovery Rate = Intercept + Recovery Characteristics + Firm Characteristics + Macroeconomic Variables
 
-factors.xlsx
+
  
 
 
