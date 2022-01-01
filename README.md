@@ -73,7 +73,31 @@ be presented as follows
 
 Recovery Rate = Intercept + Recovery Characteristics + Firm Characteristics + Macroeconomic Variables
 
-https://github.com/taipahuchu/Loss-Given-Default-in-SAS/blob/main/factors.xlsx
+List of covariates		
+		Debt Characteristics
+		
+Var1	Collateral Rank 	Instruments are ranked related to each other based on the structure prior to default, taking into consideration collateral and instrument type.
+Var2 	Percent Above	Percentage of debt which is contractually senior to the current instrument. 
+Var3	Issue Size	Face value of the relevant instrument. 
+		
+		Quick Ratio
+		
+Var4	 Total Asset 	Total assets of the obligor 
+Var5	EBITDA	Earnings before interest, taxes, depreciation and amortization
+Var6	Leverage	Ratio of total debt and total assets
+Var7	Debt Ratio 	Ratio of current liabilities and long term debt
+Var8	Book Value per Share	Book value of assets scaled by the total outstanding shares 
+Var9	Asset Tangibility 	Ratio between intangible assets and tangible assets
+Var10	Quick Ratio	"Sum of cash and short-term investment and total receivables divided by the 
+current liabilities."
+		
+		Macroeconomic Variables 
+		
+Var12	 Growth Rate 	Annual GDP growth rate
+Var13	 T-Bill Rate	Three months Treasury bill rate 
+Var14	Aggregated Default Rates 	Annual issuer-weighted corporate default rates
+Var15	Unemployment Rate	Annual unemployment rate 
+![image](https://user-images.githubusercontent.com/39062372/147856797-8791a1b6-a3fe-4f49-8117-4e4a3d65b3f6.png)
 
 
  
