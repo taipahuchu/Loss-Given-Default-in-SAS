@@ -6,7 +6,7 @@ models. The empirical results show that mixed effects models are able to explain
 to make better predictions compared with linear regression and fractional response regression. All the statistical 
 models are performed in SAS/STAT®, SAS® 9.2, using specifically PROC REG and PROC NLMIXED, and the 
 model evaluation metrics are calculated in PROC IML. This project gives a detailed description on how to use PROC 
-NLMIXED to build and estimate generalized linear models and mixed effects models. 
+NLMIXED to build and estimate generalized linear models and mixed effects models. Lgd is Loss given default.
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=taipahuchu)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Hi there 👋, Modeling Loss Given Default in SAS/STAT
