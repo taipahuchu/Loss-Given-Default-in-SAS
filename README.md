@@ -16,7 +16,7 @@ study of the commonly used models in literature. We mainly investigate to apply 
 the US corporate bonds recovery rates with the random effect terms specified at obligor, seniority and time levels. We 
 find that the inclusion of an obligor-varying random effect term effectively explains the unobservable heterogeneity 
 and the related predictive accuracies are also much better than the others. All the models are built up and realized in 
-SAS/STAT® and the prediction results are generated in PROC IML.
+SAS/STAT® and the prediction results are generated in PROC I
 
 Skills: SAS/Credit Risk
 
