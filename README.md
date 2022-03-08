@@ -31,7 +31,7 @@ Recovery rate (RR) is defined as one minus LGD. LGD/RR modeling attracts much le
 large volume of literature on PD modeling. With the portfolio loss estimation being a major concern in modern risk 
 management system, increasing attention is being dedicated to LGD modeling as well as PD and LGD joint 
 estimation. In terms of the methodologies there are two main streams: one approach is to apply fixed effect 
-regression models including linear regression and fractional response regression to predict LGD (Gupton and Stein, 
+regression models including linear regression and fractional response regression to predict LGD (Gupton and Ste
 2002, Dermine et al, 2006 and Bastos, 2010). In empirical studies LGD distributions often present bi-modal 
 characteristics bounded between the interval [0, 1] based on its definition. Calabrese (2012) proposes an inflated 
 beta regression model which considered the dependent variable as a mixture of a continuous beta distribution on (0,1)
